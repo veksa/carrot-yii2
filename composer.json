@@ -1,0 +1,39 @@
+{
+    "name": "veksa/carrot-yii2",
+    "description": "Yii2 Component for Carrot Quest API",
+    "keywords": [
+        "php",
+        "carrot-quest",
+        "carrot",
+        "carrot api",
+        "carrot yii2",
+        "yii2",
+        "extension",
+        "component"
+    ],
+    "homepage": "https://github.com/veksa/carrot-yii2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Khijnij",
+            "email": "admin@devblog.pro",
+            "homepage": "https://devblog.pro",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "yiisoft/yii2": "*",
+        "veksa/carrot-api": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Veksa\\Carrot\\Yii2\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
